@@ -8,7 +8,8 @@
 		</div>
 	</div>
 	<div class="button">
-		<button class="text-[0.875rem] text-[#201F1F] font-[500] px-[3.125rem] py-[0.625rem] bg-white"
+		<button
+			class="text-[0.875rem] text-[#201F1F] hover:bg-slate-200 font-[500] px-[3.125rem] py-[0.625rem] bg-white"
 			>Hire us today</button
 		>
 	</div>
