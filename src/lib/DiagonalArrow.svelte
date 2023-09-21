@@ -3,7 +3,7 @@
 	 * Colour of the diagonal arrow
 	 * @type string
 	 */
-	export let colour;
+	export let colour = 'white';
 	/**
 	 * Arrow Width
 	 *
