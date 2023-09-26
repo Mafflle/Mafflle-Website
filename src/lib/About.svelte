@@ -5,7 +5,7 @@
 	import IntroImage from './sub-components/IntroImage.svelte';
 </script>
 
-<div class="px-[12.125rem]">
+<div class="xl:px-[12.125rem] px-[2.5rem]">
 	<Intro />
 	<IntroImage />
 

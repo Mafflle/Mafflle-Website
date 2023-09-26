@@ -3,7 +3,9 @@
 	import MafflleLogo from './MafflleLogo.svelte';
 </script>
 
-<div class="flex w-full justify-between px-[3.125rem] py-[2.5rem] absolute text-white navbar">
+<div
+	class="flex w-full justify-between px-[3.125rem] xl:px-[7.125rem] py-[2.5rem] absolute text-white navbar"
+>
 	<div class="logo flex items-center gap-[0.5rem]">
 		<MafflleLogo width="20" height="20" />
 		<div class="logo-text"><b>Mafflle</b> Studio</div>
