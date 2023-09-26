@@ -19,7 +19,7 @@
 		<span>{title}</span>
 		<DiagonalArrow colour="#201F1F" />
 	</div>
-	<div class="card-content text-[0.95rem]">
+	<div class="card-content text-[0.95rem] text-[#757575]">
 		{content}
 	</div>
 </div>
