@@ -6,7 +6,7 @@
 <div class="overflow-hidden">
 	<HeroVector />
 
-	<div class="h-[38.125rem] w-screen hero text-white flex items-center px-[3.125rem]">
+	<div class="h-[38.125rem] w-screen hero text-white flex items-center px-[13.125rem]">
 		<HeroElements />
 	</div>
 </div>

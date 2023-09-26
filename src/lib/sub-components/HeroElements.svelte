@@ -1,9 +1,9 @@
 <div class="flex flex-col gap-[3.625rem]">
 	<div class="text flex flex-col gap-[1.5rem] font-[400]">
-		<div class="text-[2.875rem] w-[70%] leading-[140%]">
+		<div class="text-[2.875rem] leading-[140%]">
 			We help businesses and brands across industries build a better digital identity
 		</div>
-		<div class="text-[1rem] w-[40%] leading-[160%]">
+		<div class="text-[1rem] w-[70%] leading-[160%]">
 			Your partner in shaping exceptional online identities. Seamlessly bringing your ideas to life
 		</div>
 	</div>
