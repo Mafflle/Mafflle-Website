@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+	scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: SF Pro Display;
   src: url(/fonts/sf-pro-text-regular.ttf);

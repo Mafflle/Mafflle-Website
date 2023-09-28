@@ -15,7 +15,7 @@
 	];
 </script>
 
-<div class="xl:px-[12.125rem] px-[2.5rem] py-[3.063rem] bg-[#06050A] text-white">
+<div class="xl:px-[12.125rem] px-[2.5rem] py-[3.063rem] bg-[#06050A] text-white" id="services">
 	<h3 class="services-header text-[0.75rem] tracking-[2.4px]">SERVICES</h3>
 	<div class="services-list pt-[5.625rem]">
 		{#each services as service}
