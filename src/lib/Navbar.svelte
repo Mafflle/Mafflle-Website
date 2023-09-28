@@ -11,11 +11,11 @@
 		<div class="logo-text"><b>Mafflle</b> Studio</div>
 	</div>
 	<div class="links flex items-center gap-[1.875rem] capitalize font-semibold">
-		<a href="#services" class="link flex items-center gap-[0.625rem]">
+		<a href="/#services" class="link flex items-center gap-[0.625rem]">
 			<span>Our Services</span>
 			<DiagonalArrow colour="#fff" width="17" height="17" />
 		</a>
-		<a href="/" class="link flex items-center gap-[0.625rem]">
+		<a href="/contact" class="link flex items-center gap-[0.625rem]">
 			<span>contact us</span>
 			<DiagonalArrow colour="#fff" width="17" height="17" />
 		</a>
