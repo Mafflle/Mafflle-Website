@@ -2,6 +2,7 @@
 	import About from '$lib/About.svelte';
 	import Hero from '$lib/Hero.svelte';
 	import Navbar from '$lib/Navbar.svelte';
+	import Services from '$lib/Services.svelte';
 	import Works from '$lib/Works.svelte';
 </script>
 
@@ -9,3 +10,4 @@
 <Hero />
 <About />
 <Works />
+<Services />
