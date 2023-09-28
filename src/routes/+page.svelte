@@ -1,5 +1,6 @@
 <script>
 	import About from '$lib/About.svelte';
+	import Footer from '$lib/Footer.svelte';
 	import Hero from '$lib/Hero.svelte';
 	import Navbar from '$lib/Navbar.svelte';
 	import Services from '$lib/Services.svelte';
@@ -13,3 +14,4 @@
 <Works />
 <Services />
 <Story />
+<Footer />
