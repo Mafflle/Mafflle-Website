@@ -7,7 +7,7 @@
 	<HeroVector />
 
 	<div
-		class="h-[38.125rem] xl:w-screen hero text-white flex items-center px-[3.125rem] xl:px-[12.125rem]"
+		class="h-[38.125rem] xl:w-screen hero text-white flex items-center px-[3.125rem] xl:px-[12.125rem] z-[9] relative"
 	>
 		<HeroElements />
 	</div>

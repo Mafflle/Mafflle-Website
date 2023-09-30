@@ -12,10 +12,6 @@ html{
   src: url(/fonts/sf-pro-text-regular.ttf);
 }
 
-.hero{
-	background: #06050A;
-/*background: linear-gradient(111deg, rgba(0,0,0,1) 10%, #442698 80%, rgba(0,0,0,1) 100%);*/
-}
 body{
 	font-family: SF Pro Display;
 	overflow-x: hidden;
