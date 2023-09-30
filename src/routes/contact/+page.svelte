@@ -9,7 +9,7 @@
 	<ContactVector />
 
 	<div
-		class="h-screen xl:w-screen hero text-white flex items-center px-[3.125rem] xl:px-[12.125rem]"
+		class="h-screen xl:w-screen hero text-white flex items-center px-[3.125rem] xl:px-[12.125rem] z-[10]"
 	>
 		<div class="form flex flex-col items-center xl:gap-[3.438rem] gap-[2rem] w-[60%]">
 			<div class="form-header w-full text-[2.5rem] font-semibold leading-[140%]">

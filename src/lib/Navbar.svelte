@@ -1,6 +1,7 @@
 <script>
 	import DiagonalArrow from './DiagonalArrow.svelte';
 	import MafflleLogo from './MafflleLogo.svelte';
+	import { page } from '$app/stores';
 </script>
 
 <div
@@ -10,14 +11,34 @@
 		<MafflleLogo width="20" height="20" />
 		<div class="logo-text"><b>Mafflle</b> Studio</div>
 	</div>
-	<div class="links flex items-center gap-[1.875rem] capitalize font-semibold">
-		<a href="/#services" class="link flex items-center gap-[0.625rem]">
-			<span>Our Services</span>
-			<DiagonalArrow colour="#fff" width="17" height="17" />
+	<div class="links flex items-center gap-[1.875rem] capitalize font-normal">
+		<a href="/" class="link flex items-center gap-[0.625rem]">
+			{#if $page.url.pathname === '/'}
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="10"
+					height="10"
+					viewBox="0 0 10 10"
+					fill="none"
+				>
+					<circle cx="5" cy="5" r="5" fill="white" />
+				</svg>
+			{/if}
+			<span>Home</span>
 		</a>
 		<a href="/contact" class="link flex items-center gap-[0.625rem]">
-			<span>contact us</span>
-			<DiagonalArrow colour="#fff" width="17" height="17" />
+			{#if $page.url.pathname === '/contact'}
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="10"
+					height="10"
+					viewBox="0 0 10 10"
+					fill="none"
+				>
+					<circle cx="5" cy="5" r="5" fill="white" />
+				</svg>
+			{/if}
+			<span class:text-[#757575]={$page.url.pathname === '/contact'}>contact us</span>
 		</a>
 	</div>
 	<div class="social-links flex items-center gap-[1.125rem]">
