@@ -1,4 +1,4 @@
-<div class="footer-container xl:px-[12.125rem] px-[2.5rem] py-[3.313rem]">
+<div class="footer-container xl:px-[12.125rem] px-[2.5rem] py-[2.313rem] border-t border-black">
 	<div class="footer flex justify-between w-full items-center">
 		<div class="copyright">Ⓒ2022 Mafflle Studio. All right reserved.</div>
 		<div class="social-links flex items-center gap-[5.688rem]">
