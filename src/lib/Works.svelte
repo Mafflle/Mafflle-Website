@@ -30,7 +30,7 @@
 </script>
 
 <div class="xl:px-[12.125rem] px-[2.5rem]">
-	<h2 class="header text-[3rem] font-medium">Our Works</h2>
+	<h2 class="header text-[3rem] font-semibold">Featured works</h2>
 	<div class="projects py-10 flex flex-col gap-[6.25rem]">
 		{#each projects as project}
 			<Project

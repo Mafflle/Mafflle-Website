@@ -7,10 +7,10 @@
 <div
 	class="flex w-full justify-between px-[3.125rem] xl:px-[7.125rem] py-[2.5rem] absolute text-white navbar z-[20]"
 >
-	<div class="logo flex items-center gap-[0.5rem]">
+	<a href="/" class="logo flex items-center gap-[0.5rem]">
 		<MafflleLogo width="20" height="20" />
 		<div class="logo-text"><b>Mafflle</b> Studio</div>
-	</div>
+	</a>
 	<div class="links flex items-center gap-[1.875rem] capitalize font-normal">
 		<a href="/" class="link flex items-center gap-[0.625rem]">
 			{#if $page.url.pathname === '/'}
@@ -42,13 +42,13 @@
 		</a>
 	</div>
 	<div class="social-links flex items-center gap-[1.125rem]">
-		<a href="somesite.com" class="social-link"
+		<a href="somesite.com" target="_blank" class="social-link"
 			><img src="/icons/Twitter.svg" alt="Twitter icon" /></a
 		>
-		<a href="somesite.com" class="social-link"
+		<a href="somesite.com" target="_blank" class="social-link"
 			><img src="/icons/LinkedIn.svg" alt="LinkedIn icon" /></a
 		>
-		<a href="somesite.com" class="social-link"
+		<a href="somesite.com" target="_blank" class="social-link"
 			><img src="/icons/Instagram.svg" alt="Instagram icon" /></a
 		>
 	</div>
