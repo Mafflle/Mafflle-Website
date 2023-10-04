@@ -1,6 +1,6 @@
 <div class="intro text-center flex items-center flex-col pt-[3.125rem] pb:0 md:py-[4.313rem]">
 	<h3
-		class="intro-header text-[1.2rem] text-[#442698] bg-[#dcd0ea] py-[0.125rem] px-[0.875rem] rounded-2xl"
+		class="intro-header text-[0.75rem] md:text-[1.2rem] text-[#442698] bg-[#dcd0ea] py-[0.125rem] px-[0.875rem] rounded-2xl"
 	>
 		INTRODUCING
 	</h3>
