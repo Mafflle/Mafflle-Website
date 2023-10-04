@@ -2,7 +2,9 @@
 	import AboutCard from '$lib/sub-components/AboutCard.svelte';
 </script>
 
-<div class="my-[6.25rem] about flex items-center justify-between gap-[3.25rem]">
+<div
+	class="my-[6.25rem] about flex flex-col md:flex-row items-center justify-between gap-[3.25rem]"
+>
 	<AboutCard
 		title="Tailored Solutions for Every Need"
 		content="Whether you're a startup, a growing business, or an established brand, Mafflle provides
