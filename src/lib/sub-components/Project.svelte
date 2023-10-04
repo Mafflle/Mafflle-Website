@@ -37,7 +37,7 @@
 				<div class="tags h-[20%] flex gap-[7px]">
 					{#each tags as tag}
 						<div
-							class="tag px-[0.75rem] py-[0.25rem] text-[#757575] border-2 border-[#757575] rounded-[20px] text-[0.8rem] font-medium tracking-[2px] w-fit h-fit uppercase"
+							class="tag px-[0.75rem] py-[0.25rem] text-[#757575] border-2 border-[#757575] rounded-[20px] md:text-[0.5rem] lg:text-[0.8rem] font-medium tracking-[2px] w-fit h-fit uppercase"
 						>
 							{tag}
 						</div>
@@ -46,7 +46,7 @@
 			</div>
 
 			<div class="w-[20%]">
-				<a href={link} class="flex items-center gap-[9px]">
+				<a href={link} class="flex items-center gap-[9px] md:text-[0.6rem] lg:text-[1rem]">
 					<span class="font-medium">Visit site</span>
 					<DiagonalArrow colour="#201F1F" />
 				</a>

@@ -3,7 +3,7 @@
 
 	const projects = [
 		{
-			image: '/img/placeholder.png',
+			image: '/img/uruggo.png',
 			title: 'Uruggo',
 			about:
 				'From highly skilled software engineers to exceptionally talented designers, Maffle brings together a fusion of top-tier talent in the digital arena. Our team is a harmonious blend of',
@@ -11,15 +11,7 @@
 			tags: ['UI/UX DESIGN', 'Web Development']
 		},
 		{
-			image: '/img/placeholder.png',
-			title: 'Sisi oni dukia',
-			about:
-				'From highly skilled software engineers to exceptionally talented designers, Maffle brings together a fusion of top-tier talent in the digital arena. Our team is a harmonious blend of',
-			link: 'https://uruggo.com',
-			tags: ['Web Development']
-		},
-		{
-			image: '/img/placeholder.png',
+			image: '/img/sisi-oni-dukia.png',
 			title: 'Sisi oni dukia',
 			about:
 				'From highly skilled software engineers to exceptionally talented designers, Maffle brings together a fusion of top-tier talent in the digital arena. Our team is a harmonious blend of',

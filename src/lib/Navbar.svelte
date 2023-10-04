@@ -5,7 +5,7 @@
 </script>
 
 <div
-	class="flex w-full justify-between px-[3.125rem] xl:px-[7.125rem] py-[2.5rem] absolute text-white navbar z-[20]"
+	class="hidden lg:flex w-full justify-between px-[3.125rem] xl:px-[7.125rem] py-[2.5rem] absolute text-white navbar z-[20]"
 >
 	<a href="/" class="logo flex items-center gap-[0.5rem]">
 		<MafflleLogo width="20" height="20" />
