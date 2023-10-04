@@ -5,7 +5,7 @@
 	import IntroImage from './sub-components/IntroImage.svelte';
 </script>
 
-<div class="xl:px-[12.125rem] lg:px-[2.5rem] md:px-[2.1rem] px-[2.5rem]">
+<div class="px-[1rem] lg:px-[3.125rem] xl:px-[12.125rem]">
 	<Intro />
 	<IntroImage />
 	<AboutSectionCards />
