@@ -1,6 +1,9 @@
 <script>
+	import MobileNavMenu from '$lib/MobileNavMenu.svelte';
 	import '../app.css';
 </script>
+
+<MobileNavMenu />
 
 <slot />
 <svelte:head>

@@ -1,5 +1,9 @@
 <script>
 	import MafflleLogo from '$lib/MafflleLogo.svelte';
+	import { navOpen } from '$lib/store';
+	const openNav = () => {
+		navOpen.set(true);
+	};
 </script>
 
 <div
@@ -9,12 +13,12 @@
 		<MafflleLogo width="20" height="20" />
 		<div class="logo-text"><b>Mafflle</b> Studios</div>
 	</a>
-	<div class="menu">
+	<button class="menu" on:click={openNav}>
 		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="9" viewBox="0 0 24 9" fill="none">
 			<line x1="0.325684" y1="8.5" x2="24.0001" y2="8.5" stroke="white" />
 			<line y1="0.5" x2="23.6744" y2="0.5" stroke="white" />
 		</svg>
-	</div>
+	</button>
 </div>
 
 <style>

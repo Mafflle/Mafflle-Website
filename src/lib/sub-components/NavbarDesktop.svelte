@@ -10,7 +10,7 @@
 		<MafflleLogo width="20" height="20" />
 		<div class="logo-text"><b>Mafflle</b> Studios</div>
 	</a>
-	<div class="links flex items-center gap-[1.875rem] capitalize font-normal">
+	<div class="links flex items-center gap-[1.875rem] capitalize font-normal text-[#757575]">
 		<a href="/" class="link flex items-center gap-[0.625rem]">
 			{#if $page.url.pathname === '/'}
 				<svg
@@ -23,7 +23,7 @@
 					<circle cx="5" cy="5" r="5" fill="white" />
 				</svg>
 			{/if}
-			<span>Home</span>
+			<span class:text-white={$page.url.pathname === '/'}>Home</span>
 		</a>
 		<a href="/contact" class="link flex items-center gap-[0.625rem]">
 			{#if $page.url.pathname === '/contact'}
@@ -37,7 +37,7 @@
 					<circle cx="5" cy="5" r="5" fill="white" />
 				</svg>
 			{/if}
-			<span class:text-[#757575]={$page.url.pathname === '/contact'}>contact us</span>
+			<span class:text-white={$page.url.pathname === '/contact'}>contact us</span>
 		</a>
 	</div>
 	<div class="social-links flex items-center gap-[1.125rem]">
