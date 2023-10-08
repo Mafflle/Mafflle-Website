@@ -1,6 +1,6 @@
-<div class="flex flex-col gap-[3.625rem]">
+<div class="flex flex-col gap-[2rem] md:gap-[3.625rem]">
 	<div class="text flex flex-col gap-[1.5rem] font-[400]">
-		<div class="text-[2rem] lg:text-[2.875rem] leading-[140%]">
+		<div class=" text-[1.8rem] lg:text-[2.875rem] leading-[140%]">
 			We help businesses and brands across industries build a better digital identity
 		</div>
 		<div class="text-[0.875rem] lg:text-[1rem] w-[70%] leading-[160%]">
