@@ -9,14 +9,14 @@
 	<ContactVector />
 
 	<div
-		class="h-screen xl:w-screen hero text-white px-[3.125rem] xl:px-[12.125rem] z-[10] relative flex flex-col justify-center gap-[3.75rem]"
+		class="h-screen xl:w-screen hero text-white px-[1rem] lg:px-[3.125rem] xl:px-[12.125rem] z-[10] relative flex flex-col justify-center gap-[3.75rem]"
 	>
-		<div class="contact-header text-[3rem] font-semibold">Contatct Us</div>
+		<div class="contact-header text-lg md:text-[3rem] font-semibold">Contatct Us</div>
 
-		<div class="flex justify-center h-fit">
-			<div class="w-[40%] contact-info flex flex-col gap-[1.875rem]">
+		<div class="flex flex-col md:flex-row justify-center h-fit gap-[4.188rem] md:gap-0">
+			<div class="w-full md:w-[40%] contact-info flex flex-col gap-[1.875rem]">
 				<div class="email flex flex-col gap-[0.875rem]">
-					<div class="text-[0.875rem] opacity-50">Send us an Email</div>
+					<div class="text-sm opacity-50">Send us an Email</div>
 					<div class="text-[1.125rem] font-semibold">
 						<a href="mailto:Hello@mafflestudio.com">Hello@mafflestudio.com</a>
 					</div>
@@ -26,8 +26,8 @@
 					<tel class="text-[1.125rem] font-semibold">+2349070933598</tel>
 				</div>
 			</div>
-			<div class="form flex flex-col items-center xl:gap-[3.438rem] gap-[2rem] w-[60%]">
-				<div class="form-header w-full text-[1.5rem] leading-[140%]">
+			<div class="form flex flex-col items-center xl:gap-[3.438rem] gap-[3.75rem] md:gap-[2rem] w-full md:w-[60%]">
+				<div class="form-header w-full text-lg md:text-[1.5rem] leading-[140%]">
 					Wanna start a project? Let’s talk about it
 				</div>
 				<div class="form-elements w-full flex flex-col xl:gap-[4.125rem] gap-[2rem]">
@@ -42,7 +42,8 @@
 					<textarea
 						placeholder="Tell us about your project"
 						class="form-input py-[10px] border-b border-b-white bg-transparent w-full focus:outline-0"
-						rows="1"
+						rows="4"
+						cols="1"
 					/>
 					<input
 						type="submit"
