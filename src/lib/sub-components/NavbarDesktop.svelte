@@ -41,14 +41,11 @@
 		</a>
 	</div>
 	<div class="social-links flex items-center gap-[1.125rem]">
-		<a href="somesite.com" target="_blank" class="social-link"
+		<a href="https://twitter.com/mafflle" target="_blank" class="social-link"
 			><img src="/icons/Twitter.svg" alt="Twitter icon" /></a
 		>
-		<a href="somesite.com" target="_blank" class="social-link"
+		<a href="https://www.linkedin.com/company/mafflle/" target="_blank" class="social-link"
 			><img src="/icons/LinkedIn.svg" alt="LinkedIn icon" /></a
-		>
-		<a href="somesite.com" target="_blank" class="social-link"
-			><img src="/icons/Instagram.svg" alt="Instagram icon" /></a
 		>
 	</div>
 </div>

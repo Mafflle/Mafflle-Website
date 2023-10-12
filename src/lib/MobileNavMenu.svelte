@@ -1,6 +1,5 @@
 <script>
 	import { page } from '$app/stores';
-	import Instagram from './icons/Instagram.svelte';
 	import LinkedIn from './icons/LinkedIn.svelte';
 	import Twitter from './icons/Twitter.svelte';
 	import { navOpen } from './store';
@@ -51,9 +50,12 @@
 			</a>
 		</div>
 		<div class="icons flex gap-4">
-			<Twitter width={30} height={30} />
-			<LinkedIn width={30} height={30} />
-			<Instagram width={30} height={30} />
+			<a href="https://twitter.com/mafflle" target="_blank">
+				<Twitter width={30} height={30} />
+			</a>
+			<a href="https://www.linkedin.com/company/mafflle/" target="_blank">
+				<LinkedIn width={30} height={30} />
+			</a>
 		</div>
 	</div>
 {/if}

@@ -26,7 +26,9 @@
 					<tel class="text-[1.125rem] font-semibold">+2349070933598</tel>
 				</div>
 			</div>
-			<div class="form flex flex-col items-center xl:gap-[3.438rem] gap-[3.75rem] md:gap-[2rem] w-full md:w-[60%]">
+			<div
+				class="form flex flex-col items-center xl:gap-[3.438rem] gap-[3.75rem] md:gap-[2rem] w-full md:w-[60%]"
+			>
 				<div class="form-header w-full text-lg md:text-[1.5rem] leading-[140%]">
 					Wanna start a project? Let’s talk about it
 				</div>
@@ -52,6 +54,18 @@
 						class="py-[0.625rem] px-[3.125rem] bg-white w-fit text-[#201F1F]"
 					/>
 				</div>
+			</div>
+		</div>
+	</div>
+	<div
+		class="footer-container px-[1rem] lg:px-[3.125rem] xl:px-[12.125rem] py-[2.313rem] border-t border-black"
+	>
+		<div class="footer flex flex-col md:flex-row justify-between w-full items-center gap-[1.25rem]">
+			<div class="copyright">Ⓒ2022 Mafflle Studio. All right reserved.</div>
+			<div class="social-links flex items-center gap-[1.25rem] md:gap-[5.688rem]">
+				<a href="/" class="link">Twitter</a>
+				<a href="/" class="link">Linkedin</a>
+				<a href="/" class="link">Instagram</a>
 			</div>
 		</div>
 	</div>
