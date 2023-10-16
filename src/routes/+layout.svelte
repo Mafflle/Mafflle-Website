@@ -2,21 +2,21 @@
 	import MobileNavMenu from '$lib/MobileNavMenu.svelte';
 	import { onMount } from 'svelte';
 	import '../app.css';
-	import Lenis from '@studio-freight/lenis';
+	// import Lenis from '@studio-freight/lenis';
 
-	onMount(() => {
-		const lenis = new Lenis();
+	// onMount(() => {
+	// 	const lenis = new Lenis();
 
-		/**
-		 * @param {number} time
-		 */
-		function raf(time) {
-			lenis.raf(time);
-			requestAnimationFrame(raf);
-		}
+	// 	/**
+	// 	 * @param {number} time
+	// 	 */
+	// 	function raf(time) {
+	// 		lenis.raf(time);
+	// 		requestAnimationFrame(raf);
+	// 	}
 
-		requestAnimationFrame(raf);
-	});
+	// 	requestAnimationFrame(raf);
+	// });
 </script>
 
 <MobileNavMenu />
