@@ -26,6 +26,31 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 	<link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet" />
+
+	<!-- HTML Meta Tags -->
+	<title>Mafflle</title>
+	<meta name="description" content="undefined" />
+
+	<!-- Facebook Meta Tags -->
+	<meta property="og:url" content="https://maffle-website.vercel.app" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Mafflle" />
+	<meta
+		property="og:description"
+		content="Mafflle studios help businesses and brands across industries build a better digital identity"
+	/>
+	<meta property="og:image" content="https://maffle-website.vercel.app/img/intro-image.png" />
+
+	<!-- Twitter Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="twitter:domain" content="maffle-website.vercel.app" />
+	<meta property="twitter:url" content="https://maffle-website.vercel.app" />
+	<meta name="twitter:title" content="Mafflle" />
+	<meta
+		name="twitter:description"
+		content="Mafflle studios help businesses and brands across industries build a better digital identity"
+	/>
+	<meta name="twitter:image" content="https://maffle-website.vercel.app/img/intro-image.png" />
 </svelte:head>
 
 <style>
